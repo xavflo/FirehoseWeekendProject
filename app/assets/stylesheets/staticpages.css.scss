@@ -1,0 +1,24 @@
+// Place all the styles related to the staticpages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.boxy {
+	margin-top: 60px;
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+	background-color: rgba(36,32,33,0.50);
+	padding: 1%;
+	color: white;
+}
+
+.custom-font {
+	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,san-serif;
+}
+
+body {
+	background: url('Beantown_skyline.jpg')no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
