@@ -1,4 +1,4 @@
-<div class="">
+
 		<h2 class="custom-pic-header">FOOL! No rubies here! But stay tune to continue the adventure...</h2>
 
 		<% @pics.each do |pic| %>
@@ -6,6 +6,8 @@
 				<div class="boxy">
 					<h5>ID: <%= pic.id %></h5>
 					<h2>Hour: <%= pic.hour %></h2>
+					<p />
+					<%= image_tag pic.image %>
 					<p />
 					<h4>Emotion:</h4> 
 						<p />
@@ -20,7 +22,6 @@
 		<%end %>
 		<br />
 
-</div>
 				
 
 
