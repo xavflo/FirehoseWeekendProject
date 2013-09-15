@@ -1,0 +1,15 @@
+<div class="hero-unit">
+<h2>FOOL! No rubies here! But stay tune to continue the adventure...</h2>
+
+<% @pics.each do |pic| %>
+		Emotion: <%= pic.emotion %>
+		<p>
+		Learned: <%= pic.learned %>
+		<p>
+		Hour: <%= pic.hour %>
+		<p/>
+		<%end %>
+	 <br/>
+</div>
+
+<%= link_to 'New Pic', new_pic_path %>
